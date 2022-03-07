@@ -292,6 +292,7 @@ text-shadow: 2px 2px rgb(52, 22, 224);
         }
         #widh{
             width: 100%;
+            
         }
         .gen{
             width: 3%;
@@ -303,7 +304,7 @@ text-shadow: 2px 2px rgb(52, 22, 224);
          }
          .form{
             display: block;
-            font-size: 23px;
+            font-size: 1em;
         }
         .age{
             width: 100%;
@@ -328,17 +329,20 @@ text-shadow: 2px 2px rgb(52, 22, 224);
             flex-direction: column;
         }
         .icon{
-            font-size: 18px;
-            text-align: center;
-            margin-top: 12px;
-            margin-left: 33%;
-            width: 25%;
-            font-weight: 400;
-            color: white;
-            text-shadow: 2px 2px black;
-            padding-right: 10px;
-            
-        } 
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 1em;
+        margin-top: 12px;
+        
+        color: white;
+        text-shadow: 2px 2px black;
+        }
+        .logo{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
         .btn {
             width: 101%;
             font-size: 18px;
@@ -351,20 +355,19 @@ text-shadow: 2px 2px rgb(52, 22, 224);
         #item{
             display: flex;
           flex-direction: column;
+          align-items: center;
+          justify-content: center;
           
          
         } 
         ul li {
     
             margin-top: 5px;
-            margin-left: 30%;
+            
             padding: 2px;
             list-style: none;
         }
-        .logo img{
-            margin-left: 32%;
-        }
-
+        
 }
 @media (max-width: 300px) and (min-width: 0px){
     .container{
@@ -380,6 +383,7 @@ text-shadow: 2px 2px rgb(52, 22, 224);
     }
     #widh{
         width: 100%;
+        
     }
     .gen{
         width: 2%;
@@ -391,7 +395,7 @@ text-shadow: 2px 2px rgb(52, 22, 224);
      }
      .form{
         display: block;
-        font-size: 18px;
+        font-size: 1em;
     }
     .age{
         width: 100%;
@@ -412,14 +416,15 @@ text-shadow: 2px 2px rgb(52, 22, 224);
         
             }
     .icon{
-        font-size: 16px;
-        margin-left: 33%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
         margin-top: 12px;
-        width: 25%;
         font-weight: 400;
         color: white;
         text-shadow: 2px 2px black;
-        padding-right: 10px;
+        
     }
     .btn {
         width: 101%;
@@ -436,22 +441,25 @@ text-shadow: 2px 2px rgb(52, 22, 224);
    #item{
     display: flex;
     flex-direction: column;
-    margin-left: 28%;
+    justify-content: center;
+    align-items: center;
+
 }
 ul li {
-   margin: 8px;
+   margin-top: 8px;
     padding: 2px;
     list-style: none;
 }
 a{
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     color: rgb(244, 246, 248);
     text-decoration: none;
-
 }
-.logo img{
-    margin-left: 25%;
-}
+.logo {
+    display: flex;
+   justify-content: center;
+   align-items: center;
 
+   }
 }
