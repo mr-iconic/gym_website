@@ -1,0 +1,457 @@
+*{
+ 
+    padding: 0%;
+}
+body{
+    background-color: black;
+}
+
+.navbar{
+    display: flex;
+    background-color:#080808;;
+   
+    box-shadow: 4px 6px 8px white;
+
+   
+}
+.logo img{
+    filter: invert(100%);
+}
+#item{
+    display: flex;
+    margin-left: 26px;
+}
+ul li {
+   margin: 8px;
+    padding: 2px;
+    list-style: none;
+}
+a{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(244, 246, 248);
+    text-decoration: none;
+
+} #item :hover {
+    text-shadow: 2px;
+    font-size: 20px ;
+    color: rgb(206, 33, 33);
+}
+.container{
+   
+    display: block;
+   margin-left: 20%;
+   margin-right: 20%;
+   margin-top: -27%;
+    padding: 3%;
+   
+  /* border: 2px solid white; */
+    color: aliceblue;
+}
+.container h1{
+    text-shadow: 2px 2px red;
+}
+.image img{
+    margin-top: -2.25%;
+   height: 50%;
+    width: 100%;
+   
+}
+
+@media  (min-width: 900px){
+    .container{
+        margin-left: 27%;
+        margin-right: 27%;
+    
+    }
+    .form input{
+
+        margin-top: 5px;
+        font-size: 28px;
+        margin-bottom: 5px;
+    
+    }
+    #widh{
+        width: 100%;
+    }
+    .gen{
+        width: 10%;
+    }
+    h1{
+        font-size: 62px;
+        text-align: center;
+  
+     }
+     .form{
+        display: block;
+        font-size: 28px;
+    }
+    .age{
+        width: 100%;
+    }
+    .description{
+        display: block;
+        color: aliceblue;
+        font-size: 32px;
+        text-align: center;
+        
+        
+    }
+    .description marquee{
+margin-top: 40px;
+font-weight: bold;
+font-size: 40px;
+font-family: Georgia, 'Times New Roman', Times, serif;
+text-shadow: 2px 2px rgb(52, 22, 224);
+
+    }
+    .icon{
+        
+    margin-right: 140px;
+    margin-left: 12px;
+    margin-top: 13px;
+    font-weight: bold;
+       text-transform: uppercase;
+      background-image: linear-gradient(
+        -225deg,
+        #231557 0%,
+        #44107a 29%,
+        #ff1361 67%,
+        #fff800 100%
+      );
+      background-size: auto auto;
+      background-clip: border-box;
+      background-size: 200% auto;
+      color: #fff;
+      background-clip: text;
+      text-fill-color: transparent;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      animation: textclip 2s linear infinite;
+      display: inline-block;
+          font-size: 34px;
+    }
+    .btn {
+        width: 101%;
+        font-size: 28px;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: rgb(167, 40, 40);
+        color: white;
+        cursor: grabbing;
+    }
+}
+@media  (min-width: 700px) and (max-width:900px){
+    .container{
+        margin-left: 25%;
+        margin-right: 25%;
+        margin-top: 2%;
+    }
+    .form input{
+
+        margin-top: 5px;
+        font-size: 26px;
+        margin-bottom: 5px;
+    
+    }
+    #widh{
+        width: 100%;
+    }
+    .gen{
+        width: 7%;
+    }
+    h1{
+        font-size: 55px;
+        text-align: center;
+        
+     }
+     .form{
+        display: block;
+        font-size: 26px;
+    }
+    .age{
+        width: 100%;
+    }
+    .description{
+        display: block;
+        color: aliceblue;
+        font-size: 30px;
+        text-align: center;
+        
+        
+    }
+    .description marquee{
+        margin-top: 40px;
+        font-weight: bold;
+        font-size: 40px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        text-shadow: 2px rgb(52, 22, 224);
+            }
+    .icon{
+        font-size: 32px;
+        text-align: center;
+        margin-top: 12px;
+        width: 50%;
+        font-weight: 400;
+        color: white;
+        text-shadow: 2px 2px black;
+        padding-right: 10px;
+    }
+    .btn {
+        width: 101%;
+        font-size: 28px;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: rgb(167, 40, 40);
+        color: white;
+        cursor: grabbing;
+    }
+}
+@media (max-width: 700px) and (min-width: 500px){
+    .container{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 10%;
+    }
+    .form input{
+
+        margin-top: 10px;
+        font-size: 22px;
+        margin-bottom: 5px;
+    
+    }
+    #widh{
+        width: 100%;
+    }
+    .gen{
+        width: 7%;
+    }
+    h1{
+        font-size: 40px;
+        text-align: center;
+       
+        
+     }
+     .form{
+        display: block;
+        font-size: 22px;
+       
+    }
+    .age{
+        width: 100%;
+    }
+    .description{
+        display: block;
+        color: aliceblue;
+        font-size: 25px;
+        text-align: center;
+        
+        
+    }
+    .description marquee{
+        margin-top: 30px;
+        font-weight: bold;
+        font-size: 35px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+        text-shadow: 2px 1px rgb(52, 22, 224);
+            }
+    .icon{
+        font-size: 28px;
+        text-align: center;
+        margin-top: 12px;
+        width: 50%;
+        font-weight: 400;
+        color: white;
+        text-shadow: 2px 2px black;
+        padding-right: 10px;
+    }
+    .btn {
+        width: 101%;
+        font-size: 20px;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: rgb(167, 40, 40);
+        color: white;
+        cursor: grabbing;
+    }
+}
+    @media (max-width: 500px) and (min-width: 300px){
+        .container{
+            margin-left: 0%;
+            margin-right: 0%;
+            margin-top: 5%;
+        }
+        .form input{
+
+            margin-top: 5px;
+            font-size: 22px;
+            margin-bottom:2px;
+        
+        }
+        #widh{
+            width: 100%;
+        }
+        .gen{
+            width: 3%;
+        }
+        h1{
+            font-size: 28px;
+            text-align: center;
+            
+         }
+         .form{
+            display: block;
+            font-size: 23px;
+        }
+        .age{
+            width: 100%;
+        }
+        .description{
+            display: block;
+            color: aliceblue;
+            font-size: 17px;
+            text-align: center;
+            
+            
+        }
+        .description marquee{
+            margin-top: 24px;
+            font-weight: bold;
+            font-size: 24px;
+            font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            text-shadow: 2px 1px rgb(52, 22, 224);
+            
+                }
+        .navbar{
+            flex-direction: column;
+        }
+        .icon{
+            font-size: 18px;
+            text-align: center;
+            margin-top: 12px;
+            margin-left: 33%;
+            width: 25%;
+            font-weight: 400;
+            color: white;
+            text-shadow: 2px 2px black;
+            padding-right: 10px;
+            
+        } 
+        .btn {
+            width: 101%;
+            font-size: 18px;
+            margin-top: 5px;
+            border-radius: 4px;
+            background-color: rgb(167, 40, 40);
+            color: white;
+            cursor: grabbing;
+        } 
+        #item{
+            display: flex;
+          flex-direction: column;
+          
+         
+        } 
+        ul li {
+    
+            margin-top: 5px;
+            margin-left: 30%;
+            padding: 2px;
+            list-style: none;
+        }
+        .logo img{
+            margin-left: 32%;
+        }
+
+}
+@media (max-width: 300px) and (min-width: 0px){
+    .container{
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-top: 1%;
+    }
+    .form input{
+
+        margin-top: 5px;
+        font-size: 15px;
+        margin-bottom: 5px;
+    }
+    #widh{
+        width: 100%;
+    }
+    .gen{
+        width: 2%;
+    }
+    h1{
+        font-size: 28px;
+        text-align: center;
+        
+     }
+     .form{
+        display: block;
+        font-size: 18px;
+    }
+    .age{
+        width: 100%;
+    } 
+    .description{
+        display: block;
+        color: aliceblue;
+        font-size: 12px;
+        text-align: center;
+        
+        
+    }
+    .description marquee{
+        margin-top: 18px;
+        font-weight: bold;
+        font-size: 17px;
+        font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        
+            }
+    .icon{
+        font-size: 16px;
+        margin-left: 33%;
+        margin-top: 12px;
+        width: 25%;
+        font-weight: 400;
+        color: white;
+        text-shadow: 2px 2px black;
+        padding-right: 10px;
+    }
+    .btn {
+        width: 101%;
+        font-size: 15px;
+        margin-top: 5px;
+        border-radius: 10px;
+        background-color: rgb(167, 40, 40);
+        color: white;
+        cursor: grabbing;
+    }
+   .navbar{
+       flex-direction: column;
+   }
+   #item{
+    display: flex;
+    flex-direction: column;
+    margin-left: 28%;
+}
+ul li {
+   margin: 8px;
+    padding: 2px;
+    list-style: none;
+}
+a{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(244, 246, 248);
+    text-decoration: none;
+
+}
+.logo img{
+    margin-left: 25%;
+}
+
+}
