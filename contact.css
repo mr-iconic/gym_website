@@ -9,134 +9,113 @@ body{
 .navbar{
     display: flex;
     background-color:#0c0c0c;;
-    display: flex;
-    box-shadow: 4px 6px 8px white;
+box-shadow: 4px 6px 8px white;
 
    
 }
+
 .logo img{
     filter: invert(100%);
 }
 #item{
-    display: flex;
-    margin-left: 26px;
+   display: none;
+     
 }
 ul li {
-   margin: 8px;
+    margin: 8px;
     padding: 2px;
     list-style: none;
 }
 a{
-    font-size: 18px;
+    font-size: 1em;
     font-weight: bold;
     color: rgb(244, 246, 248);
     text-decoration: none;
 
 } #item :hover {
     text-shadow: 2px;
-    font-size: 20px ;
-    color: rgb(206, 33, 33);
+    font-size: 1em ;
+    background-color: brown;
+    color: whitesmoke;
 }
-@media  (min-width: 900px){
-.icon{
-    display: flex;
-    font-size: 32px;
-    text-align: center;
-    margin-top: 15px;
-    width: 35%;
-    font-weight: 400;
-    color: white;
-    text-shadow: 2px 2px black;
-    padding-right: 10px;
-}
-}
-@media  (min-width: 700px) and (max-width:900px){
 
+@media  (min-width: 760px){
     .icon{
-        font-size: 32px;
-        text-align: center;
-        margin-top: 12px;
-        width: 50%;
-        font-weight: 400;
-        color: white;
-        text-shadow: 2px 2px black;
-        padding-right: 10px;
-    }
 
+          display: flex;
+          align-items: center;
+          justify-content:flex-start;
+          width:35% ;
+          color: white;
+          font-weight: bold;
+              font-size: 1.6em;
+        }
+        #item{
+           
+          display: flex;
+          align-items: center;
+          justify-content:flex-end;
+          width: 50% ;
+          color: white;
+          font-weight: bold;
+              font-size: 1em;
+        }
+    }
+    
+
+
+@media (max-width: 760px) and (min-width: 0px){
+    
+#menu{
+    display: block;
+    width: 45px;
+    height: 55px;
+    cursor: pointer;
+    transition: 0.3 ease;
+   
 }
-@media (max-width: 700px) and (min-width: 500px){
+ .bar{
+    background-color: white;
+    display: block;
+    width: 100%;
+    height: 6px;
+    margin: 4px;
+    border-radius: 2px;
+    transition: 0.4 ease;
+}
     .icon{
-        font-size: 28px;
-        text-align: center;
-        margin-top: 12px;
-        width: 50%;
+        font-size: 1em;
+       display: flex;
+       align-items: center;
+       justify-content: flex-start;
         font-weight: 400;
         color: white;
         text-shadow: 2px 2px black;
-        padding-right: 10px;
-    }
-}
-@media (max-width: 500px) and (min-width: 300px){
-    .navbar{
-        flex-direction: column;
-    }
-    .icon{
-        font-size: 18px;
-        text-align: center;
-        margin-top: 12px;
-        margin-left: 33%;
-        width: 25%;
-        font-weight: 400;
-        color: white;
-        text-shadow: 2px 2px black;
-        padding-right: 10px;
         
-    } 
-    #item{
-        display: flex;
-      flex-direction: column;
-      
-     
-    } 
-    ul li {
-
-        margin-top: 5px;
-        margin-left: 30%;
-        padding: 2px;
-        list-style: none;
-    }
-
-}
-@media (max-width: 300px) and (min-width: 0px){
-    .icon{
-        font-size: 16px;
-        margin-left: 33%;
-        margin-top: 12px;
-        width: 25%;
-        font-weight: 400;
-        color: white;
-        text-shadow: 2px 2px black;
-        padding-right: 10px;
     }
     .navbar{
         flex-direction: column;
     }
-    #item{
-     display: flex;
-     flex-direction: column;
-     margin-left: 28%;
- }
+    
+ 
  ul li {
-    margin: 8px;
+    margin-top: 8px;
      padding: 2px;
      list-style: none;
+
  }
  a{
-     font-size: 18px;
+     font-size: 1em;
      font-weight: bold;
      color: rgb(244, 246, 248);
      text-decoration: none;
  
  }
+ .logo{
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+ }
  
+
  }
