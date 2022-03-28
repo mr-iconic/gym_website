@@ -1,93 +1,112 @@
-*{
- padding: 0%;
+* {
+    padding: 0%;
+    margin: 0%;
 }
-body{
+
+body {
     background-color: black;
 }
-.navbar{
+
+.navbar {
     display: flex;
     justify-content: space-between;
-    background-color:#0c0c0c;;
-    box-shadow: 4px 6px 8px white; 
+    background-color: #0c0c0c;
+    ;
+    box-shadow: 4px 6px 8px white;
 }
-.logo img{
+
+.logo img {
     filter: invert(100%);
 }
-.image img{
-   margin-top: -40px;
+
+.image img {
+    margin-top: -40px;
     width: 100%;
-    height: 100%;    
+    height: 100%;
 }
-#item{
+
+#item {
     display: flex;
     justify-content: flex-end;
-    align-items: center;  
+    align-items: center;
 }
+
 ul li {
-   margin-top: 8px;
+    margin-top: 8px;
     padding: 2px;
     list-style: none;
 }
-a{
+
+a {
     font-size: 18px;
     font-weight: bold;
     color: rgb(244, 246, 248);
     text-decoration: none;
-} 
+}
+
 #item :hover {
     text-shadow: 2px;
     background-color: brown;
-    font-size: 20px ;
+    font-size: 20px;
     color: rgb(253, 250, 250);
 }
-#form{
+
+#form {
     display: none;
-   
+
 
 }
-.option1:hover{
+
+.option1:hover {
     color: rgb(121, 207, 233);
     cursor: pointer;
 
 }
-.option2:hover{
+
+.option2:hover {
     color: rgb(121, 207, 233);
     cursor: pointer;
-    
+
 }
 
 
-.g{
+.g {
     font-size: 1.5em;
 }
-.ag{
+
+.ag {
     font-size: 1.5em;
 }
-.container{
-   display: block;
-   margin-left: 30%;
-   margin-right: 30%;
-   margin-top: -32%;
+
+.container {
+    display: block;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-top: -32%;
     padding: 3%;
-   color: aliceblue;
+    color: aliceblue;
 }
-.age{
+
+.age {
     width: 100%;
     margin-bottom: 1em;
     padding-bottom: 0.3em;
     padding-top: 00.3em;
     border-radius: 2px;
 }
-marquee{
+
+marquee {
     color: aliceblue;
 }
-#log{
+
+#log {
     width: 100%;
     margin-bottom: 12px;
     font-size: larger;
     text-align: center;
 }
-.container button{
+
+.container button {
     width: 100%;
     margin-bottom: 12px;
     font-size: larger;
@@ -97,147 +116,160 @@ marquee{
     color: aliceblue;
 }
 
-@media  (min-width: 760px){
-.icon{
-display: block;
-margin-right: 140px;
-margin-left: 12px;
-margin-top: 13px;
-font-weight: bold;
-  
-  background-image: linear-gradient(
-    -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
-  );
-  background-size: auto auto;
-  background-clip: border-box;
-  background-size: 200% auto;
-  color: #fff;
-  background-clip: text;
-  text-fill-color: transparent;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: textclip 2s linear infinite;
-  display: inline-block;
-      font-size: 1.5em;
+@media (min-width: 760px) {
+    .icon {
+        display: block;
+        margin-right: 140px;
+        margin-left: 12px;
+        margin-top: 13px;
+        font-weight: bold;
+
+        background-image: linear-gradient(-225deg,
+                #231557 0%,
+                #44107a 29%,
+                #ff1361 67%,
+                #fff800 100%);
+        background-size: auto auto;
+        background-clip: border-box;
+        background-size: 200% auto;
+        color: #fff;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        animation: textclip 2s linear infinite;
+        display: inline-block;
+        font-size: 1.5em;
+    }
+
+    @keyframes textclip {
+        to {
+            background-position: 200% center;
+        }
+    }
 }
 
-@keyframes textclip {
-  to {
-    background-position: 200% center;
-  }
-}
-}
 ul li {
     margin: 8px;
-     padding: 2px;
-     list-style: none;
- }
-marquee{
+    padding: 2px;
+    list-style: none;
+}
+
+marquee {
     margin-top: 40px;
     font-weight: bold;
     font-size: 2.5em;
     font-family: Georgia, 'Times New Roman', Times, serif;
     text-shadow: 2px 2px rgb(52, 22, 224);
-    
-        }
-        .container h1{
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 2em;
-            font-weight: bold;
-            color: whitesmoke;
-           }
-        .logo{
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-        }
-        @media (max-width: 760px) and (min-width: 0px){
-    
-            #menu{
-                display: block;
-                margin-top: 10px;
-                width: 2em;
-                height: 55px;
-                cursor: pointer;
-                transition: 0.3 ease;   
-            }
-             .bar{
-                background-color: white;
-                display: block;
-                width: 100%;
-                height: 6px;
-                margin: 4px;
-                border-radius: 2px;
-                transition: 0.4 ease;
-            }
-                .icon{
-                    font-size: 1em;
-                   display: flex;
-                   align-items: center;
-                   justify-content: flex-start;
-                    font-weight: 400;
-                    color: white;
-                    text-shadow: 2px 2px black;
-                    }
-                .navbar{
-                    flex-direction: column;
-                } .container h1{
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    font-size: 1em;
-                    font-weight: bold;
-                    color: whitesmoke;
-                }
-                .container{
-                    display: block;
-                   margin-left: 10%;
-                   margin-right: 10%;
-                   margin-top: -32%;
-                    padding: 3%;
-                   color: aliceblue;
-                }
-                
-                
-                marquee{
-                    margin-top: 18px;
-                    font-weight: bold;
-                    font-size: 17px;
-                    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-                    }
-                        #item{
-                            display: flex;
-                            justify-content: center;
-                            align-items: center;
-                        }
-             ul li {
-            margin-top: 8px;
-            padding: 2px;
-             list-style: none;
-             }
-             a{
-                 font-size: 1em;
-                 font-weight: bold;
-                 color: rgb(244, 246, 248);
-                 text-decoration: none;
-              }
-             .g{
-                font-size: 1.2em;
-            }
-            .ag{
-                font-size: 1.2em;
-            }
-             .logo{
-                 display: flex;
-                 align-items: center;
-                 justify-content: space-between;
-             }
-             }
+
+}
+
+.container h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 760px) and (min-width: 0px) {
+
+    #menu {
+        display: block;
+        margin-top: 10px;
+        width: 2em;
+        height: 55px;
+        cursor: pointer;
+        transition: 0.3 ease;
+    }
+
+    .bar {
+        background-color: white;
+        display: block;
+        width: 100%;
+        height: 6px;
+        margin: 4px;
+        border-radius: 2px;
+        transition: 0.4 ease;
+    }
+
+    .icon {
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        font-weight: 400;
+        color: white;
+        text-shadow: 2px 2px black;
+    }
+
+    .navbar {
+        flex-direction: column;
+    }
+
+    .container h1 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 1em;
+        font-weight: bold;
+        color: whitesmoke;
+    }
+
+    .container {
+        display: block;
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: -32%;
+        padding: 3%;
+        color: aliceblue;
+    }
 
 
+    marquee {
+        margin-top: 18px;
+        font-weight: bold;
+        font-size: 17px;
+        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    }
+
+    #item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    ul li {
+        margin-top: 8px;
+        padding: 2px;
+        list-style: none;
+    }
+
+    a {
+        font-size: 1em;
+        font-weight: bold;
+        color: rgb(244, 246, 248);
+        text-decoration: none;
+    }
+
+    .g {
+        font-size: 1.2em;
+    }
+
+    .ag {
+        font-size: 1.2em;
+    }
+
+    .logo {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
