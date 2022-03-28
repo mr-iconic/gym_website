@@ -8,7 +8,6 @@ function onclickmenu() {
         x.style.display="block";
     }
 }
-
 function onclick1() {
     var x=document.getElementById("form");
     var y=document.getElementById("form2");
